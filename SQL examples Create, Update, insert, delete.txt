@@ -1,0 +1,24 @@
+CREATING, INSERTING, UPDATING, DELETE  TABLE
+
+CREATE TABLE DATABASE (
+NAME TEXT,
+VERSION floating point,
+Download_count INTEGER )
+
+UPDATE movies
+SET director = "John Lasseter"
+WHERE id = 2;
+
+UPDATE Movies 
+SET Year = 1999
+WHERE ID = 3;
+
+UPDATE Movies 
+SET title = "Toy Story 3", director = "Lee Unkrich" 
+WHERE ID = 11
+
+DELETE FROM movies
+where year < 2005;
+
+Delete from movies 
+Where director = "Andrew Stanton"
